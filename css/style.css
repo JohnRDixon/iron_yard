@@ -87,10 +87,7 @@ img{
 	position: relative;
 	left: 50px;
 	top: 120px;
-	/*background-image: url(../img/play.png);*/
-	background-repeat:no-repeat;
-	background-position: right;
-	background-size: 
+	padding: 7px;
 }
 
 
