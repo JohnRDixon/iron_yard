@@ -57,6 +57,7 @@ img{
 .top{
 	display: block;
 	vertical-align: top;
+	border-bottom: 2px solid black;
 }
 
 .mainimage{
@@ -155,6 +156,12 @@ button{
 	text-align: center;
 }
 
+#second{
+
+	border-bottom: 2px solid black;
+	padding-bottom: 30px;
+}
+
 .column{
 	display: inline-block;
 	width: 47%;
@@ -189,4 +196,8 @@ footer{
 	text-decoration: none;
 	color: #ffffff;
 	margin: 10px;
+}
+
+.ita{
+	font-style: italic;
 }
