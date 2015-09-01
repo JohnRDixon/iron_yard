@@ -4,7 +4,7 @@ body{
 .wrapper{
 	width:1150px;
 	margin: 0 auto;
-	text-align: center;
+	/*text-align: center;*/
 
 }
 
@@ -57,7 +57,8 @@ img{
 .top{
 	display: block;
 	vertical-align: top;
-	border-bottom: 2px solid black;
+	border-bottom: 1px solid #c8c8c8;
+	text-align: center;
 }
 
 .mainimage{
@@ -78,9 +79,13 @@ img{
 
 }
 
+.mainimage h2{
+	left:50px;
+}
+
 .vidbutton{
 	position: relative;
-	left: 110px;
+	left: 50px;
 	top: 120px;
 	/*background-image: url(../img/play.png);*/
 	background-repeat:no-repeat;
@@ -88,16 +93,29 @@ img{
 	background-size: 
 }
 
-.vidbutton img{
-	opacity: 0.7;
+
+
+.vidbutton a{
+	text-decoration: none;
 }
+
+.vidbutton a:link{
+	color: #ffffff;
+}
+
+.vidbutton a:visited{
+	color: #ffffff;
+}
+
 
 .apply{
 	background-image: url(../img/apply.png);
 	background-size: fill;
 	background-repeat: no-repeat;
 	padding-top: 20px;
-	padding-bottom: 20px;
+	/*padding-bottom: 20px;*/
+	border-radius: 5px;
+
 
 }
 
@@ -109,6 +127,7 @@ img{
 	font-weight: normal;
 	color: #ffffff;
 	margin: 10px;
+
 }
 
 .apply h4{
@@ -118,6 +137,8 @@ img{
 
 .apply h2{
 	text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.5);
+	position: relative;
+	left: 35px;
 }
 button{
 	background: rgb(0,216,248); /* Old browsers */
@@ -140,8 +161,20 @@ button{
 .applybutton{ 
 	position: relative;
 	left: 875px;
-	bottom: 30px;
-	
+	bottom: 50px;
+
+}
+
+.applybutton a{
+	text-decoration: none;
+}
+
+.applybutton a:link{
+	color: #ffffff;
+}
+
+.applybutton a:visited{
+	color: #ffffff;
 }
 .columntwo{
 	display: inline-block;
@@ -150,6 +183,8 @@ button{
 	vertical-align: top;
 	text-align: center;
 	font-size: small;
+
+
 }
 
 #secondary_content{
@@ -158,7 +193,7 @@ button{
 
 #second{
 
-	border-bottom: 2px solid black;
+	border-bottom: 1px solid #c8c8c8;
 	padding-bottom: 30px;
 }
 
@@ -200,4 +235,11 @@ footer{
 
 .ita{
 	font-style: italic;
+}
+
+
+.course_list{
+	padding-bottom: 60px;
+	border-bottom: 1px solid #c8c8c8;
+	margin-bottom: 60px;
 }
